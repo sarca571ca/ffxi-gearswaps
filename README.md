@@ -1,4 +1,8 @@
-# Baeron's Gearswap Luas
+# Disclaimer
+
+This is not my work. It is a complete copy of [grandivory/ffxi-gearswap](https://github.com/grandivory/ffxi-gearswap)'s repo for my use.
+
+# Suille's Gearswap Luas
 
 These luas are meant to be a generic way to set up gearsets for any job and have them automatically behave the way you want. You can include `set-behavior.lua` in your job-specific file, which gives you the ability to only have to define the gearsets you use - everything else is taken care of. Here are the features that `set-behavior.lua` gives you:
 
