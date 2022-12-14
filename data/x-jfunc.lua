@@ -6,6 +6,7 @@ require 'x-abilities'
 function ja_brd(cmd)
   local ab = brd[cmd]
   local an = ab:gsub("\"", ""):gsub(" <me>", ""):gsub("/ja ", "")
-  local i = "input "
-  print('Command: send_command('..i..ab..')')
+  -- local i = "input "
+  windower.send_command('input '..ab)
+  -- windower.send_command(input)
 end
