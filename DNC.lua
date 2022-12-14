@@ -5,12 +5,7 @@
 -- ============================================================================== --
 
 -- Include/Reuqire
-require 'x-include'
-
-local args = {...}
-cmd = args[2]
-arg = args[3]
-
+require 'x-include'                 -- Personal include file that has my 'libs'
 
 function get_sets()
     sets.idle = {}                  -- Leave this empty.
@@ -18,17 +13,20 @@ function get_sets()
     sets.midcast = {}               -- leave this empty    
     sets.aftercast = {}             -- leave this empty
 end
-function precast(spell)
+function precast(spell)             -- Handles Precast GearSwaps
 end
-function midcast(spell)
+function midcast(spell)             -- Handles Midcast GearSwaps
 end
-function aftercast(spell)
+function aftercast(spell)           -- Handles Aftercast GearSwaps(Usually set to idle())
 end
-function idle()
+function idle()                     -- Handles Idle GearSwaps
 end
-function status_change(new,old)
+function status_change(new,old)     -- Checks ModeSwaps(Stances essentially) 
+                                    -- Will need to discover more here.
+end
+function self_command(command)      -- Runs commands passed through from in game eg. //gs c cmd
+                                    -- if cmd == 'duck' then windower.add_to_chat(220, 'Quack!') end
+end
+function macro_command(cmdParams)   -- My custom mod to GearSwap to run my personal macro system
 end
 
-function self_command(command)
-  if commad == 'ja' then init_ability(cmd, arg) end
-end
