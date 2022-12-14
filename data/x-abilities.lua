@@ -65,3 +65,8 @@ whm = {
   ['bd'] = '/ja "Benediction" <me>', ['ds'] = '/ja "Divine Seal" <me>', ['as'] = '/ja "Afflatus Solace" <me>', ['am'] = '/ja "Afflatus Misery" <me>', ['mt'] = '/ja "Martyr" <stpc>',
   ['dv'] = '/ja "Devotion" <stpc>', ['dc'] = '/ja "Divine Caress" <me>', ['sc'] = '/ja "Sacrosanctity" <me>', ['ay'] = '/ja "Asylum" <me>',
 }
+
+w = {
+  ['i'] = 'wait 1', ['ii'] = 'wait 2', ['iii'] = 'wait 3' 
+}
+h = '.5'
